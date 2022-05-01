@@ -1,0 +1,52 @@
+<section id="references">
+    <div class="container mb-5">
+        <h2><strong>{{'references.title' | translate}}</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="card shadow-lg  rounded pb-3" data-aos="fade-right" data-aos-delay="300">
+            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselIndicators" data-slide-to="0" class="not-active active"></li>
+                    <li data-target="#carouselIndicators" data-slide-to="1" class="not-active"></li>
+                    <li data-target="#carouselIndicators" data-slide-to="2" class="not-active"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="carousel-item" [ngClass]="{active:index==0}" *ngFor="let reference of references;let index=index">
+                        <div class="d-block w-100">
+                            <div class="row">
+                                <div class="col-lg-2 ml-4 mr-4 col-sm-12">
+                                    <div class="row">
+                                        <div class="mt-4">
+                                            <img class="d-block w-100 rounder" src="{{reference.personImg}}"
+                                                alt="slide">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mt-3">
+                                            <h5>{{reference.personFullname}}</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mt-2 ">
+                                            <h5><small>{{reference.personPosition}}</small></h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mt-2 ">
+                                            <span class="text-uppercase"><strong>{{reference.personCompany}}</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body ml-4 mr-3 mt-4 col-lg-9 col-sm-12">
+                                    <div class="row">
+                                        <span>{{reference.message}}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
