@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
-import { locale as french } from '../shared/i18n/fr';
+import { locale as portuguese } from '../shared/i18n/pt';
 import Typed from 'typed.js';
 @Component({
   selector: 'app-home',
@@ -11,7 +11,7 @@ import Typed from 'typed.js';
 export class HomeComponent implements OnInit {
 
   constructor(private _translationLoaderService: TranslationLoaderService) {
-    this._translationLoaderService.loadTranslations(english, french);
+    this._translationLoaderService.loadTranslations(english, portuguese);
   }
   ngOnInit(): void {
     var options = {

@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import * as $ from 'jquery';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
-import { locale as french } from '../shared/i18n/fr';
+import { locale as portuguese } from '../shared/i18n/pt';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +13,7 @@ import { locale as french } from '../shared/i18n/fr';
 export class HeaderComponent implements OnInit {
   language:any="";
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations(english, french);
+    this._translationLoaderService.loadTranslations(english, portuguese);
     if(localStorage.getItem("lang")){
       this.language=localStorage.getItem("lang");
     }

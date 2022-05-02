@@ -32,7 +32,6 @@
               "node_modules/aos/dist/aos.css",
               "node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
-             
             ],
             "scripts": []
           },
@@ -128,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "my-portfolio"
+  "defaultProject": "my-portfolio",
+  "cli": {
+    "analytics": false
+  }
 }

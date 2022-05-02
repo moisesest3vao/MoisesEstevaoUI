@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
-import { locale as french } from '../shared/i18n/fr';
+import { locale as portuguese } from '../shared/i18n/pt';
 import { projectsEn} from '../api/projectsEn';
 import { projectsFr} from '../api/projectsFr';
 
@@ -15,7 +15,7 @@ export class ProjectsComponent implements OnInit {
   projects:any[]=projectsEn;
   venobox: any;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
-    this._translationLoaderService.loadTranslations(english, french);
+    this._translationLoaderService.loadTranslations(english, portuguese);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
         this.projects=projectsEn;
