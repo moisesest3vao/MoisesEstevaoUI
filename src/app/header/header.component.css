@@ -1,12 +1,12 @@
 li:hover,.home:hover {
-    background-color: rgb(51, 59, 61);
+    background-color: #340e12;
 }
 
 i:hover,a:hover {
-    background-color: rgb(45, 51, 53);
+    background-color: #340e12;
 }
 nav{
-    background-color: #212529;
+    background-color: #1a131e;
 }
 
 i{

@@ -5,16 +5,21 @@
     background-size: cover;
 }
 
+.texto-central{
+    text-align: left;
+}
+
 #home p{
     color: #fff;
     margin-bottom: 50px;
-    font-size: 26px;
-    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
     display: block;
 }
 
 h1{
     color: #fff; 
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #home p span {
@@ -22,4 +27,16 @@ h1{
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
+   
+}
+.hometext{
+    
+}
+
+.rainbow{
+    background-image: linear-gradient(to left, rgb(255, 0, 255),rgb(149, 0, 255),rgb(0, 0, 255),rgb(0, 255, 0),yellow,rgb(255, 145, 0),red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }

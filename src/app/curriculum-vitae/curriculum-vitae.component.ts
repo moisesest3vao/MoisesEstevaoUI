@@ -3,7 +3,7 @@ import * as awesom from '@fortawesome/free-solid-svg-icons';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
 import { locale as portuguese } from '../shared/i18n/pt';
-import { experiencesFr} from '../api/experiencesFr';
+import { experiencesPt} from '../api/experiencesPt';
 import { experiencesEn} from '../api/experiencesEn';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -25,7 +25,7 @@ export class CurriculumVitaeComponent implements OnInit {
         this.experiences=experiencesEn;
       }
       else{
-        this.experiences=experiencesFr;
+        this.experiences=experiencesPt;
       }
     });
   }

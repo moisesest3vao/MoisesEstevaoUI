@@ -10,9 +10,9 @@ import { locale as portuguese } from '../shared/i18n/pt';
 })
 export class SkillsComponent implements OnInit {
   skills:any={
-    technologies:[{name:"Java, J2EE, Spring, C#",percent:90,remark:'excellent'}, {name:"PHP",percent:70,remark:'good'},{name:"Android",percent:90,remark:'excellent'},{name:"Python, C++",percent:70,remark:'very-good'}, {name:"JavaScript, BootStrap, Angular", percent:90,remark:'excellent'}],
-    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"Office",percent:90,remark:'excellent'},{name:"Linux, Windows",percent:70,remark:'very-good'},{name:"MySql, PgSql",percent:90,remark:'excellent'},{name:"Docker, Kubernetes",percent:50,remark:'average'}],
-    methodologies:[{name:"Scrum",percent:70,remark:'very-good'},{name:"Uml",percent:90,remark:'excellent'},{name:"Disign Thinking",percent:70,remark:'good'},{name:"TDD",percent:90,remark:'excellent'},{name:"DevOps",percent:50,remark:'average'}]
+    technologies:[{name:"Java, Spring Boot",percent:90,remark:'excellent'},{name:"JavaScript, TypeScript, Angular",percent:70,remark:'very-good'},{name:"HTML, CSS, Bootstrap",percent:50,remark:'average'}],
+    tools:[{name:"Git",percent:90,remark:'excellent'},{name:"MySql, MariaDB",percent:70,remark:'very-good'},{name:"Linux, Windows",percent:70,remark:'very-good'}],
+    methodologies:[{name:"Clean-Code",percent:70,remark:'very-good'},{name:"Scrum",percent:50,remark:'average'},{name:"Cybersecurity",percent:50,remark:'average'}]
   };
 
   constructor(private _translationLoaderService: TranslationLoaderService) {

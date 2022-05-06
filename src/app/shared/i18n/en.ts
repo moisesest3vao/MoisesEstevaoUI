@@ -13,6 +13,7 @@ export const locale = {
             'researchDescription': 'I am looking for an innovative and user-centric company to best meet the needs customer, from his idea to the final delivery of his project, or participate in the improvement of a project existing.',
             'and':'and',
             'followMeOn':'Follow me on',
+            'local':'Sao Paulo, Brazil'
         },
         'contact': {
             'contactMe': 'Contact Me',

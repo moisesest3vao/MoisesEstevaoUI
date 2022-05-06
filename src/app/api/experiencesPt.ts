@@ -1,9 +1,9 @@
-export const experiencesFr = [
+export const experiencesPt = [
     {
-        title: "Dévloppeur en freelance",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 mois)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
+        title: "Estagiário de Desenvolvimento",
+        company: 'Santana de Parnaíba, SP, BR',
+        period: "Março 2022 - Atualmente",
+        technologies: 'Angular, Spring Boot, MS Graph, Git, Jira, Bitbucket',
         missions: [
             "Mise en place d'un gestionnaire de thèmes (couleurs, logo).",
             "Mise en place d'un gestionnaire de dossiers virtuels qui peuvent contenir des apps Qlik Sense.",
