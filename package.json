@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "moises-estevao",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://zinedineBenkhider.github.io/portfolio/ && npx ngh --dir=dist/my-portfolio"
+    "deploy": "ng b --prod --base-href https://github.com/moisesest3vao/MoisesEstevaoUI.git && npx ngh --dir=dist/my-portfolio"
   },
   "private": true,
   "dependencies": {
