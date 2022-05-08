@@ -1,10 +1,11 @@
-<section id="skills">
+<section [ngStyle]="{backgroundImage:'linear-gradient(rgba(18, 33, 42, 0.4), rgba(18, 33,  42, 0.4)),url(assets/images/fundoabout.gif)'}" id="skills">
     <div class="container">
-        <h2><strong>{{'skills.title' | translate}}</strong></h2>
+       
+        <h2 class="text-white pixel title">{{'skills.title' | translate}}<img class="skill-image mb-2" src="assets/images/navskill.gif" alt=""></h2>
         <span class="bar-title mb-5"></span>
         <div class="row mt-2">
-            <div class="col-lg-4" data-aos="fade-up " data-aos-anchor-placement="center-bottom" data-aos-delay="300">
-                <h5 class="h5"><strong>{{'skills.technologies' | translate}}</strong></h5>
+            <div class="text-white pixel col-lg-4" data-aos="fade-up " data-aos-anchor-placement="center-bottom" data-aos-delay="300">
+                <h5 class="h5"><p>{{'skills.technologies' | translate}}</p></h5>
                 <div id="skillgraph">
                     <div class='row skill-row' *ngFor="let technologie of skills.technologies;">
                         <div class="label d-flex flex-row">
@@ -17,8 +18,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
-                <h5 class="h5"><strong>{{'skills.tools' | translate}}</strong></h5>
+            <div class="text-white pixel col-lg-4" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
+                <h5 class="h5"><p>{{'skills.tools' | translate}}</p></h5>
                 <div id="skillgraph" class="panel panel-default">
                     <div class='row skill-row' *ngFor="let tool of skills.tools;">
                         <div class="label d-flex flex-row">
@@ -31,8 +32,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
-                <h5 class="h5"><strong>{{'skills.methodologies' | translate}}</strong></h5>
+            <div class="text-white pixel col-lg-4 mb-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
+                <h5 class="h5"><p>{{'skills.methodologies' | translate}}</p></h5>
                 <div id="skillgraph" class="panel panel-default">
                     <div class='row skill-row' *ngFor="let methodologie of skills.methodologies;">
                         <div class="label d-flex flex-row">

@@ -4,33 +4,37 @@
     background: top center;
     background-size: cover;
 }
-
+.home-img{
+    display: inline-block;
+    width: 40px;
+}
 .texto-central{
     text-align: left;
 }
-
+.pixel{
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+}
 #home p{
     color: #fff;
     margin-bottom: 50px;
-    font-size: 30px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'VT323', monospace;
+    font-size: 33px;
     display: block;
 }
 
 h1{
+    font-size: 60px;
     color: #fff; 
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'VT323', monospace;
 }
 
 #home p span {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid #fff;
    
-}
-.hometext{
-    
 }
 
 .rainbow{

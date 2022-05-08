@@ -1,10 +1,10 @@
-<header>
+<header >
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="home p-1 rounded">
             <ul class="navbar-nav">
                 <li class="nav-item p-1 rounded">
-                    <a class="nav-link smooth-scroll text-uppercase" href="#"><i class='bx bx-home'></i> {{'header.home'
-                        | translate}}
+                    <a class="pixel nav-link smooth-scroll text-uppercase" href="#">
+                        <img class="nav-image" src="assets/images/navhome.gif"> {{'header.home'| translate}}
                     </a>
                 </li>
             </ul>
@@ -16,37 +16,42 @@
             <div style="width: 100%; float: right;" class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" style=" float: right;">
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#about"><i
-                                class='bx bx-user'></i> {{'header.about' | translate}}
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#about">
+                            <img src="assets/images/navprofile.gif" class="nav-image mr-1" alt=""> {{'header.about' | translate}}
                         </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#skills"><i
-                                class='bx bx-briefcase-alt'></i>{{'header.skills' | translate}}</a>
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#skills">
+                            <img src="assets/images/navskill.gif" class="nav-image mr-1" alt="">{{'header.skills' | translate}}
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#cv"> <i
-                                class='bx bx-file-blank'></i>CV</a>
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#cv"> 
+                            <img src="assets/images/navcv.png" class="nav-image mr-1" alt="">CV
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#portfolio"> <i
-                                class='bx bx-book-content'></i>Portfolio</a>
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#portfolio"> 
+                            <img src="assets/images/navportfolio.gif" class="nav-image mr-1" alt="">Portfolio
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#references"><i
-                                class='bx bxs-badge-check'></i> {{'header.references' | translate}}</a>
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#references">
+                            <img src="assets/images/navreferences.gif" class="nav-image mr-1" alt="">{{'header.references' | translate}}
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#contact"> <i
-                                class='bx bx-envelope'></i>{{'header.contactMe' | translate}}</a>
+                        <a class="pixel nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#contact"> 
+                            <img src="assets/images/navcontact.png" class="nav-image mr-1" alt="">{{'header.contactMe' | translate}}
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <mat-radio-group  [(ngModel)]="language" style="margin-top: 5px;"
+                        <mat-radio-group class="pixel" [(ngModel)]="language" style="margin-top: 5px;"
                             (change)="languageChange($event)" aria-label="Select a language">
-                            <mat-radio-button value="en" >
+                            <mat-radio-button class="pixel" value="en" >
                                 English
                             </mat-radio-button>
-                            <mat-radio-button value="pt" class="pl-3">
+                            <mat-radio-button value="pt" class="pixel pl-3">
                                 Português
                             </mat-radio-button>
                         </mat-radio-group>

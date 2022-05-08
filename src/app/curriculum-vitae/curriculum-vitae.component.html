@@ -1,57 +1,52 @@
-<section id="cv">
+<section [ngStyle]="{backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(assets/images/background.webp)'}" id="cv">
     <div class="container">
-        <h2><strong>   {{'education.title' | translate}}</strong></h2>
+        <h2 class="title text-white pixel">   {{'education.title' | translate}}</h2>
         <span class="bar-title mb-5"></span>
         <div class="row">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <h4><strong>{{'education.eductionTitle' | translate}}</strong></h4>
+                <h4 class="subtitle text-white pixel">{{'education.eductionTitle' | translate}}</h4>
                 <ul class="timeline">
                     <li>
-                        <h5>{{'education.masterDegreeTwo' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeTwoDesc' | translate}}<br> {{'education.university1' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2022 - 2024</p>
+                        <h5 class="text-white pixel">{{'education.masterDegreeTwo' | translate}}</h5>
+                        <em class="text-white pixel">{{'education.masterDegreeTwoDesc' | translate}}<br> {{'education.university1' | translate}}</em>
+                        <p class=" year p-2 d-flex justify-content-center">2022 - 2024</p>
                     </li>
                     <li>
-                        <h5>{{'education.masterDegreeOne' | translate}}</h5>
-                        <em class="font-italic">{{'education.masterDegreeOneDesc' | translate}} <br> {{'education.university2' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2021 - 2022</p>
-                    </li>
-                    <li>
-                        <h5>{{'education.bachlorDegree' | translate}}</h5>
-                        <em class="font-italic">{{'education.bachlorDegreeDesc' | translate}}<br> {{'education.escola' | translate}}</em>
-                        <p class="year p-2 d-flex justify-content-center">2019 - 2021</p>
+                        <h5 class="text-white pixel">{{'education.masterDegreeOne' | translate}}</h5>
+                        <em class="text-white pixel">{{'education.masterDegreeOneDesc' | translate}} <br> {{'education.university2' | translate}}</em>
+                        <p class=" year p-2 d-flex justify-content-center">2021 - 2022</p>
                     </li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <h4><strong>{{'education.experiencesTitle' | translate}}</strong></h4>
+                <h4><p class="subtitle text-white pixel">{{'education.experiencesTitle' | translate}}</p></h4>
                 <ul class="timeline">
                     <li *ngFor="let experience of experiences;">
-                        <h5>{{experience.title}}</h5>
-                        <em>{{experience.company}}</em>
+                        <h5 class="text-white pixel text-white pixel">{{experience.title}}</h5>
+                        <em class="text-white pixel">{{experience.company}}</em>
                         <div class="d-flex flex-row">
                             <p class="year p-2 d-flex justify-content-center">{{experience.period}}</p>
                             <button (click)="detailOnClick(experience)" type="button"
                                 class="btn btn-primary">
                                 <span *ngIf="!experience.detailIsDisplayed">+</span><span *ngIf="experience.detailIsDisplayed">-</span> {{'education.detail' | translate}}</button>
                         </div>
-                        <p *ngIf="experience.detailIsDisplayed">
-                            <span *ngFor="let mission of experience.missions;let index = index">
+                        <p class="text-white" *ngIf="experience.detailIsDisplayed">
+                            <span  *ngFor="let mission of experience.missions;let index = index">
                                 <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
                             </span>
-                            <strong>{{'education.technologies' | translate}}:</strong> {{experience.technologies}}
+                            <strong >{{'education.technologies' | translate}}:</strong> {{experience.technologies}}
                         </p>
                     </li>
 
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-white col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                 <div class="container row">
                     <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                        <h4><strong>{{'education.languages' | translate}}</strong></h4>
+                        <h4 class="subtitle pixel">{{'education.languages' | translate}}</h4>
                         <div class="noProgress langue">
                             <span class=""><img src="assets/images/france-flag.png" width="20"
-                                    alt="drapeau de la france"><strong> {{'education.french' | translate}}</strong> <i class="val">
+                                    alt="drapeau de la france"><strong>{{'education.french' | translate}}</strong>  <i class="val">
                                         {{'education.fluent' | translate}}</i></span>
                         </div>
                         <div class="noProgress langue">
@@ -65,15 +60,8 @@
                         <h4><strong>{{'education.centerOfInterest' | translate}}</strong></h4>
                         <div class="noProgress langue">
                             <span>
-                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val"> 5 {{'education.years' | translate}}
-                                    Volley Ball</i>
-                            </span>
-                        </div>
-
-                        <div class="noProgress langue">
-                            <span>
-                                <fa-icon [icon]="planeIcon"></fa-icon><strong> {{'education.trips' | translate}}</strong> <i class="val">
-                                    {{'education.tripsCountries' | translate}} </i>
+                                <fa-icon [icon]="volleyBallIcon"></fa-icon><strong> {{'education.sport' | translate}}</strong> <i class="val"> 2 {{'education.years' | translate}}
+                                    Parkour</i>
                             </span>
                         </div>
                         <div class="noProgress langue">

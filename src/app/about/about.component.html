@@ -1,62 +1,66 @@
-<section id="about">
-    <div class="container">
-        <h2><strong>{{'about.title' | translate}}</strong></h2>
-        <span class="bar-title mb-5"></span>
-        <div class="row">
-            <div class="col-lg-4 col-md-12" data-aos="fade-right">
-                <picture>
-                    <img src="assets/images/moises.jfif" alt="photo de profil" class="img-fluid">
-                </picture>
-                <div class="d-flex justify-content-center">
-                    <a class="btn-social-media" href="https://www.linkedin.com/in/moises-estevao/" rel="tooltip"
-                        target="_blank" title="{{'about.followMeOn' | translate}} Linkedin">
-                        <i class="fa fa-linkedin fa-lg "></i>
-                    </a>
-                    <a class="btn-social-media btn-default btn-round btn-lg btn-icon"
-                        href="https://github.com/moisesest3vao" rel="tooltip" target="_blank"
-                        title="{{'about.followMeOn' | translate}} GitHub">
-                        <i class="fa fa-github fa-lg "></i></a>
-                </div>
-            </div>
-            <div class="col-lg-8  col-md-12 pt-4 pt-lg-0" data-aos="fade-left">
-                <h3>{{'about.jobTitle' | translate}}</h3>
-                <p class="font-italic">
-                    {{'about.introductionOfMe' | translate}}
-                    <br>{{'about.passionateAboutDevelopment' | translate}} <b>Back-End</b> {{'about.and' | translate}} <b>Front-End</b>.
-                </p>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <ul>
-                            <li>
-                                <fa-icon [icon]="mapMarker"></fa-icon><strong> {{'about.mobility' | translate}}</strong>
-                            </li>
-                            <li>
-                                <fa-icon [icon]="building"></fa-icon><strong>{{'about.local' | translate}}</strong>
-                            </li>
-                            <li>
-                                <fa-icon [icon]="email"></fa-icon><strong><a href="mailto:zinedine.benkhider@gmail.com">
-                                        moisesestevao2004@hotmail.com</a></strong>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <ul>
-                            <li>
-                                <fa-icon [icon]="birthday"></fa-icon><strong> 17 {{'about.years' | translate}}</strong>
-                            </li>
-                            <li>
-                                <fa-icon [icon]="badge"></fa-icon><strong> {{'about.graduation' | translate}}</strong>
-                            </li>
-                            <li>
-                                <fa-icon [icon]="home"></fa-icon><strong> {{'about.myResearch' | translate}} </strong>
-                            </li>
-                        </ul>
+<div [ngStyle]="{backgroundImage:'linear-gradient(rgba(18, 33, 42, 0.4), rgba(18, 33,  42, 0.4)),url(assets/images/fundoabout.gif)'}">
+   
+    <section id="about" >
+        <div class="container">
+            <h2 class="pixel" style="font-size:50px"> {{'about.title' | translate}}<img src="assets/images/navprofile.gif" class="about-image mb-2" alt=""></h2>
+            <span class="bar-title mb-0"></span>    
+            <div class="row">
+                <div class="col-lg-4 col-md-12" data-aos="fade-right">
+                    <picture>
+                        <img src="assets/images/moises.png" alt="photo de profil" class="img-fluid">
+                    </picture>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn-social-media" href="https://www.linkedin.com/in/moises-estevao/" rel="tooltip"
+                            target="_blank" title="{{'about.followMeOn' | translate}} Linkedin">
+                            <i class="fa fa-linkedin fa-lg "></i>
+                        </a>
+                        <a class="btn-social-media btn-default btn-round btn-lg btn-icon"
+                            href="https://github.com/moisesest3vao" rel="tooltip" target="_blank"
+                            title="{{'about.followMeOn' | translate}} GitHub">
+                            <i class="fa fa-github fa-lg "></i></a>
                     </div>
                 </div>
-                <p>
-                    {{'about.researchDescription' | translate}}
-                </p>
+                <div class="pixel col-lg-8  col-md-9 pt-4 pt-lg-0" data-aos="fade-left">
+                    <h3>{{'about.jobTitle' | translate}}</h3>
+                    <p class="text-white">
+                        {{'about.introductionOfMe' | translate}}
+                        <br>{{'about.passionateAboutDevelopment' | translate}} <b>Back-End</b> {{'about.and' | translate}} <b>Front-End</b>.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <ul>
+                                <li>
+                                    <fa-icon [icon]="mapMarker"></fa-icon><strong class="font text-white"> {{'about.mobility' | translate}}</strong>
+                                </li>
+                                <li>
+                                    <fa-icon [icon]="building"></fa-icon><strong class="text-white">{{'about.local' | translate}}</strong>
+                                </li>
+                                <li>
+                                    <fa-icon [icon]="email"></fa-icon><strong class="text-white" style="font-size:22px"><a href="mailto:zinedine.benkhider@gmail.com">
+                                            moisesestevao2004@hotmail.com</a></strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <ul>
+                                <li>
+                                    <fa-icon [icon]="birthday"></fa-icon><strong class="text-white"> 17 {{'about.years' | translate}}</strong>
+                                </li>
+                                <li>
+                                    <fa-icon [icon]="badge"></fa-icon><strong class="text-white"> {{'about.graduation' | translate}}</strong>
+                                </li>
+                                <li>
+                                    <fa-icon [icon]="home"></fa-icon><strong class="text-white">{{'about.myResearch' | translate}}</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-white">
+                        {{'about.researchDescription' | translate}}
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
+    

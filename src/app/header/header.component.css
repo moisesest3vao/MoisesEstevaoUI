@@ -1,12 +1,18 @@
 li:hover,.home:hover {
     background-color: #340e12;
 }
-
+.nav-image{
+  width: 25px;
+}
 i:hover,a:hover {
     background-color: #340e12;
 }
 nav{
     background-color: #1a131e;
+}
+.pixel{
+  font-family: 'VT323', monospace;
+  font-size: 24px;
 }
 
 i{

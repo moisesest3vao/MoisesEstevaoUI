@@ -2,7 +2,16 @@ ul.timeline {
     list-style-type: none;
     position: relative;
 }
-
+.text-white{
+    color:#ffff;
+}
+.pixel{
+    font-family: 'VT323', monospace;
+    font-size:24px;
+}
+.subtitle{
+    font-size: 40px;
+}
 ul.timeline:before {
     content: ' ';
     background: #105572;
@@ -13,19 +22,20 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
-
+.title{
+    font-size: 50px;
+}
 .skills .resume-title {
     font-size: 26px;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #050d18;
+    color: #ffffff;
 }
 
 h3 {
-    font-family: "Raleway", sans-serif;
+    
 }
-
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
@@ -53,6 +63,11 @@ ul.timeline > li:before {
 }
 button{
     height: 40px;
+    background-color: #105572;
+    
+}
+h2{
+    font-size:50px;
 }
 
 .langue {
@@ -61,7 +76,7 @@ button{
 
 fa-icon{
     font-size: 15px;
-    color: #149ddd;
+    color: #105572;
     width: 30px;
     height: 30px;
     background: #dff3fc;

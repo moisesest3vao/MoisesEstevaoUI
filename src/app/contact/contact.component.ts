@@ -10,13 +10,11 @@ import { locale as portuguese } from '../shared/i18n/pt';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
   constructor(private _translationLoaderService: TranslationLoaderService) {
     this._translationLoaderService.loadTranslations(english, portuguese);
   
   }
 
   ngOnInit(): void {
-   
   }
 }

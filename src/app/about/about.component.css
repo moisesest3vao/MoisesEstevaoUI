@@ -1,13 +1,33 @@
 ul {
   list-style-type: none;
 }
-
+.about-image{
+ width: 40px;
+}
+.parent {
+  border: 0px solid black;
+  padding: 2rem 2rem;
+}
+.child {
+  margin-top: 40px;
+  vertical-align: middle;
+}
+.pixel{
+  font-family: 'VT323', monospace;
+  font-size:24px;
+}
+.title{
+  font-size: 50px;
+}
+.dark{
+  background-color:#12212A;
+}
 fa-icon{
     font-size: 15px;
-    color: #149ddd;
+    color: #ffff;
     width: 30px;
     height: 30px;
-    background: #dff3fc;
+    background: #285F91;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +38,8 @@ fa-icon{
 
 h3{
   font-weight: 700;
-    font-size: 26px;
-    color: #173b6c;
+    font-size: 40px;
+    color: #d4d4d4;
 }
 
 .btn-social-media{
@@ -30,12 +50,18 @@ h3{
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  background: #149ddd;
+  background: #285F91;
   margin-right:10px;
   margin-left:10px;
   margin-top:10px;
 }
-
+.text-white{
+  color:#ffff;
+}
+h2{
+  font-size: 50px;
+  color:#d3d3d3;
+}
 a{
   text-decoration: none;
 }

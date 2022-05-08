@@ -4,7 +4,16 @@
 .skillData-Wrapper {
     width: 100%;
 }
-
+.skill-image{
+  width: 40px;
+}
+.text-white{
+  color:#ffff;
+}
+.pixel{
+  font-family: 'VT323', monospace;
+  font-size:24px;
+}
 #skillgraph {
   padding: 1em; 
 }
@@ -12,18 +21,15 @@
 .skill-percent{
   margin-top: 10px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
 }
 
 .skillLabel{
   width: 100%;
   margin-top: 10px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18d7;
-
 }
-
+.title{
+  font-size: 50px;
+}
 .competence-Wrapper{
   line-height: 0.1 0.7em;
   height: 12px;
@@ -60,9 +66,12 @@
 .average{
   width: 50%;
 }
+h5{
+  font-size:30px;
+}
 
 .bg-rust {
-    background-color: #149ddd;
+    background-color: #12212A;
 }
 
 a{
