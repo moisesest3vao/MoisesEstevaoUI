@@ -27,7 +27,13 @@ export const locale = {
             'message': 'Mensagem',
             'send': 'Enviar',
             'cellphone': 'Celular',
-            'enterCellphone':'Digite o celular'
+            'enterCellphone':'Digite o celular',
+            'error': 'Preencha todos os campos corretamente antes de enviar o formulário',
+            'emailvalid':'Ex: nome@dominio.com',
+            'nomevalid':'Até 100 caracteres.',
+            'assuntovalid':'Até 100 caracteres.',
+            'mensagemvalid':'Até 650 caracteres.',
+            'telefonevalid':'Ex: 11911111111'
         },
         'education': {
             'title': 'Currículo',
@@ -53,7 +59,7 @@ export const locale = {
             'detail':'Detalhe',
             'tripsCountries':'Belgium, Spain, Netherlands, Swiss',
             'boardGamesPlayed':'Resident Evil, Fortnite',
-            'years':'anos'
+            'years':'ano de Corrida'
         },
         'header': {
             'home': 'Home',
@@ -69,6 +75,10 @@ export const locale = {
             'title': 'Portfólio',
             'projectDetail':'Detalhes do projeto',
             'sourceCode':'Código fonte',
+            'toquioDesc':'Site desenvolvido para Tóquio Lounge Bar, uma casa de festas da minha região',
+            'toquioTech':'Tecnologias: Angular (HTML, CSS, Typescript, Javascript)',
+            'deploy':'Visite o Site',
+            'codigofonte': 'Código Fonte'
         },
         'references': {
             'title': 'Comentários',

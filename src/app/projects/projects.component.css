@@ -1,8 +1,33 @@
 
 h2{
-  color: rgb(22, 59, 90);
+  font-size: 50px;
+  color: rgb(255, 255, 255);
 }
+.rainbow{
+  background-image: linear-gradient(to left, rgb(255, 0, 255),rgb(149, 0, 255),rgb(0, 0, 255),rgb(0, 255, 0),yellow,rgb(255, 145, 0),red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+h3{
+  font-size:40px;
+}
+.pixel{
+  font-family: 'VT323', monospace;
+  font-size:24px;
+}
+.subtitle{
+  font-size: 40px;
+}
+.text-white{
+  color:white;
+}
+button{
+  height: 40px;
+  background-color: #105572;
 
+}
 li.not-active{
   background-color: rgb(95, 146, 161);
 }

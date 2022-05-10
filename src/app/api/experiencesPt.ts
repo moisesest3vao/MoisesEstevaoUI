@@ -24,7 +24,7 @@ export const experiencesPt = [
     {
         title: "Aprendiz em eletrônica",
         company: 'Gráfica Gonçalves',
-        period: "2021 - 2022 (1 an)",
+        period: "2021 - 2022",
         technologies: 'Sistemas embarcados',
         missions: [
             "Controle de inventário",

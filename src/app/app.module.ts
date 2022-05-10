@@ -19,6 +19,9 @@ import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ReactiveFormsModule } from '@angular/forms'; 
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +45,8 @@ import { MatInputModule } from '@angular/material/input';
     MatRadioModule,
     FormsModule,
     MatSelectModule,
+    HttpClientModule,
+    ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
     TranslateModule.forRoot(),

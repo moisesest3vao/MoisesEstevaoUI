@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
 import { locale as portuguese } from '../shared/i18n/pt';
-import { projectsEn} from '../api/projectsEn';
-import { projectsFr} from '../api/projectsFr';
 
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -12,24 +10,36 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects:any[]=projectsEn;
+
   venobox: any;
   constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, portuguese);
     this._translateService.onLangChange.subscribe(()=>{
       if(this._translateService.currentLang=="en"){
-        this.projects=projectsEn;
+
       }
       else{
-        this.projects=projectsFr;
+
       }
     });
   }
 
   ngOnInit(): void {
-    
+
   }
 
+  openAlura(){
+    window.open('https://www.linkedin.com/posts/moises-estevao_java-data-security-activity-6918434110222782464-r3f4?utm_source=linkedin_share&utm_medium=member_desktop_web');
+  }
+  gitAlura(){
+    window.open('https://github.com/moisesest3vao/ForumAPI.git');
+  }
+  openToquio(){
+    window.open('https://toquiolounge.herokuapp.com/#/home');
+  }
+  gitToquio(){
+    window.open('https://github.com/moisesest3vao/ToquioLounge');
+  }
   ngAfterViewInit(){
     console.log("after view init");
     this.onMouse("portfolio-link", "portfolio-img");
@@ -39,11 +49,6 @@ export class ProjectsComponent implements OnInit {
     this.onMouse("riddle-link", "riddle-img");
     this.venobox = $('.venobox');
     this.venobox.venobox();
-  }
-
-  detailOnClick(project: any) {
-    this.projects.filter(item=>item.detailIsDisplayed && item.id!=project.id).map(elem=>elem.detailIsDisplayed=false);
-    project.detailIsDisplayed=!project.detailIsDisplayed;
   }
 
   onMouse(idLink: String, idImage: String) {

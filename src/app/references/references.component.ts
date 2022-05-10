@@ -3,7 +3,7 @@ import { TranslationLoaderService } from '../service/translation-loader.service'
 import { locale as english } from '../shared/i18n/en';
 import { locale as portuguese } from '../shared/i18n/pt';
 import { referencesEn} from '../api/referencesEn';
-import { referencesFr} from '../api/referencesFr';
+import { referencesPt} from '../api/referencesPt';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-references',
@@ -19,7 +19,7 @@ export class ReferencesComponent implements OnInit {
         this.references=referencesEn;
       }
       else{
-        this.references=referencesFr;
+        this.references=referencesPt;
       }
     });
   }
