@@ -1,7 +1,22 @@
 li.not-active{
     background-color: rgb(95, 146, 161);
 }
-
+.text-white{
+  color:white;
+}
+.title{
+  font-size: 50px;
+}
+h2{
+  color:white;
+}
+.pixel{
+  font-family: 'VT323', monospace;
+  font-size:24px;
+}
+.card{
+  background-color: rgba(155, 242, 255, 0.473);
+}
 li.active{
     background-color: rgb(6, 46, 58);
 }
@@ -10,6 +25,3 @@ section{
     padding-top: 100px;
 }
 
-h2{
-    color: rgb(22, 59, 90);
-}

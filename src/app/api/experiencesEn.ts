@@ -1,34 +1,34 @@
 export const experiencesEn = [
   {
-      title: "Estagiário de Desenvolvimento",
+      title: "Development Intern",
       company: 'Soluarq',
       period: "2022 - Hoje",
       technologies: 'Angular, Spring Boot, MS Graph, Git, Jira, Bitbucket',
       missions: [
-          "Testes, manutenção de bugs",
-          "Levantamento de requisitos",
-          "Desenvolver soluções FullStack"
+          "Tests, bugs fix",
+          "Requirements gathering",
+          "FullStack solutions"
       ],
       detailIsDisplayed: false,
   },
   {
-      title: "Desenvolvedor Freelancer",
+      title: "Freelance Developer",
       company: 'World-wide',
       period: "2022 - Hoje",
       technologies: 'Angular, Spring Boot, MySQL',
       missions: [
-          "Desenvolver sites front-end para pequenos negócios"
+          "Website development for small businesses"
       ],
       detailIsDisplayed: false,
   },
   {
-      title: "Aprendiz em eletrônica",
-      company: 'Gráfica Gonçalves',
+      title: "Electrônic apprentice",
+      company: 'Gonçalves Graphic',
       period: "2021 - 2022",
-      technologies: 'Sistemas embarcados',
+      technologies: 'Embedded systems',
       missions: [
-          "Controle de inventário",
-          "Construção de sistemas elétricos"
+          "Inventory Control",
+          "Electric Systems development"
       ],
       detailIsDisplayed: false,
   }
