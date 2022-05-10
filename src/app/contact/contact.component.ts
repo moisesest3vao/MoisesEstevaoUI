@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
 
   formMensagem!:FormGroup;
   mensagem!:Mensagem;
-
+  enviouFormulario: boolean = false;
   constructor(
     private _translationLoaderService: TranslationLoaderService,
     private formBuilder: FormBuilder,
@@ -47,5 +47,6 @@ export class ContactComponent implements OnInit {
       response=data;
       console.log(response);
     });
+    this.enviouFormulario = true;
   }
 }

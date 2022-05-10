@@ -9,8 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent implements OnInit {
   currentYear:number;
   constructor(private _translateService: TranslateService) {
-    this._translateService.addLangs(['en', 'fr']);
-    this._translateService.setDefaultLang('fr');
+    this._translateService.addLangs(['en', 'pt']);
+    this._translateService.setDefaultLang('pt');
     this.currentYear=new Date().getFullYear();
   }
 
@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     if (!localStorage.getItem("lang")) {
       localStorage.setItem("lang", 'en');
     }
-    let lang:any=localStorage.getItem("lang"); 
+    let lang:any=localStorage.getItem("lang");
     this._translateService.setDefaultLang(lang);
     this._translateService.use(lang);
   }

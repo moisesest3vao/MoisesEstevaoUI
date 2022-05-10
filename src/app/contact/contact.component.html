@@ -1,16 +1,24 @@
-<section  id="contact">
+<section class="text-white pixel" [ngStyle]="{backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(assets/images/talktome.gif)'}"  id="contact">
     <div class="container">
-        <h2><strong >{{'contact.contactMe' | translate}}</strong></h2>
+        <h2 class="text-white title">{{'contact.contactMe' | translate}}</h2>
         <span class="bar-title mb-2"></span>
         <div class="row"  data-aos="fade-up"
         data-aos-anchor-placement="top-center">
             <div class="col-md-3 col-lg-3">
                 <div class="contact-info">
-                    <h4>{{'contact.notHesitateToContactMe' | translate}}</h4>
+                    <h4 class="talk-to-me">{{'contact.notHesitateToContactMe' | translate}}</h4>
                 </div>
             </div>
             <div class="col-md-9">
-                <form [formGroup]="formMensagem">
+                <div *ngIf="this.enviouFormulario">
+                  <h1>Obrigado pela sua mensagem!</h1>
+                  <p>Tentarei respondê-lo o mais breve possível, você também pode me contatar por outras mídias sociais!</p>
+                  <img class="icon" src="assets/images/whats.png"> <p class="icon-text">Que tal pelo WhatsApp?</p>
+                  <p>+55 (11) 93473-4418</p>
+                  <img class="icon" src="assets/images/whats.png"> <p class="icon-text">Ou pelo email:</p>
+                  <a>moisesestevao2004@hotmail.com</a>
+                </div>
+                <form *ngIf="!this.enviouFormulario" [formGroup]="formMensagem">
                     <div class="contact-form">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="identite">{{'contact.identify' | translate}}</label>
@@ -60,4 +68,8 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    .
 </section>

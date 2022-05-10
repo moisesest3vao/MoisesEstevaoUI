@@ -2,7 +2,7 @@ export const locale = {
   lang: 'en',
   data: {
       'about': {
-          'title': 'About',
+          'title': 'Sobre mim',
           'jobTitle': 'Desenvolvedor Full Stack Júnior',
           'introductionOfMe': 'Tenho interesse em aprender e ensinar sobre a maravilha que é a Tecnologia. Também estou sempre em busca de novos desafios :) ',
           'passionateAboutDevelopment':'Apaixonado por desenvolvimento',
@@ -59,7 +59,7 @@ export const locale = {
           'detail':'Detalhe',
           'tripsCountries':'Belgium, Spain, Netherlands, Swiss',
           'boardGamesPlayed':'Resident Evil, Fortnite',
-          'years':'year of Running'
+          'years':'ano de Corrida'
       },
       'header': {
           'home': 'Home',
@@ -76,7 +76,9 @@ export const locale = {
           'projectDetail':'Detalhes do projeto',
           'sourceCode':'Código fonte',
           'toquioDesc':'Site desenvolvido para Tóquio Lounge Bar, uma casa de festas da minha região',
-          'toquioTech':'Tecnologias: Angular (HTML, CSS, Typescript, Javascript)'
+          'toquioTech':'Tecnologias: Angular (HTML, CSS, Typescript, Javascript)',
+          'deploy':'Visite o Site',
+          'codigofonte': 'Código Fonte'
       },
       'references': {
           'title': 'Comentários',
