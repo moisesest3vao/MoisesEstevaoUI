@@ -11,7 +11,7 @@ Página de chegada do site
 <img src="https://i.imgur.com/nSOxt8a.png">
 <br>
 # Sobre
-Uma seção sobre mim, breve apresebtação da minha paixão pela tecnologia
+Uma seção sobre mim, breve apresentação da minha paixão pela tecnologia
 <img src="https://i.imgur.com/ac7vFNj.png">
 <br>
 # Form
