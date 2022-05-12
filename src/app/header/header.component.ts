@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
       this.language=localStorage.getItem("lang");
     }
     else{
-      this.language='fr';
+      this.language='pt';
     }
   }
 

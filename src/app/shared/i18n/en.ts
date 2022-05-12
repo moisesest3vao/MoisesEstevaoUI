@@ -33,7 +33,11 @@ export const locale = {
           'nomevalid':'Up to 100 chars.',
           'assuntovalid':'Up to 100 chars.',
           'mensagemvalid':'Up to 650 chars.',
-          'telefonevalid':'Ex: 11911111111.'
+          'telefonevalid':'Ex: 11911111111.',
+          'thanks4yourmessage':'Thanks for your message!',
+          'illtrytoanwser':"I'll try to answer you as soon as possible, you can also contact me through other social media",
+          'whatsapp':'Like my whatsapp',
+          'oremail':'Or my email:'
       },
       'education': {
           'title': 'Curriculum Vitae',

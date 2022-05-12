@@ -2,7 +2,7 @@ export const experiencesEn = [
   {
       title: "Development Intern",
       company: 'Soluarq',
-      period: "2022 - Hoje",
+      period: "2022 - Today",
       technologies: 'Angular, Spring Boot, MS Graph, Git, Jira, Bitbucket',
       missions: [
           "Tests, bugs fix",
@@ -14,7 +14,7 @@ export const experiencesEn = [
   {
       title: "Freelance Developer",
       company: 'World-wide',
-      period: "2022 - Hoje",
+      period: "2022 - Today",
       technologies: 'Angular, Spring Boot, MySQL',
       missions: [
           "Website development for small businesses"
@@ -22,7 +22,7 @@ export const experiencesEn = [
       detailIsDisplayed: false,
   },
   {
-      title: "Electrônic apprentice",
+      title: "Electronic apprentice",
       company: 'Gonçalves Graphic',
       period: "2021 - 2022",
       technologies: 'Embedded systems',

@@ -10,6 +10,9 @@ li.not-active{
 h2{
   color:white;
 }
+.img-reference{
+  width: 60px;
+}
 .pixel{
   font-family: 'VT323', monospace;
   font-size:24px;
