@@ -8,11 +8,11 @@ Dediquei dias e dias a esse projeto, com o objetivo de deixá-lo com a minha car
 <br>
 # Home
 Página de chegada do site
-<img src="https://i.imgur.com/nSOxt8a.png">
+<img src="https://i.imgur.com/ac7vFNj.png">
 <br>
 # Sobre
 Uma seção sobre mim, breve apresentação da minha paixão pela tecnologia
-<img src="https://i.imgur.com/ac7vFNj.png">
+<img src="https://i.imgur.com/nSOxt8a.png">
 <br>
 # Form
 Esse formulário se comunica com um WebService que eu criei, uma API Rest em Spring Boot responsável por receber as mensagens e guardá-las em um banco de dados.
