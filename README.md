@@ -7,9 +7,11 @@ Link do site ao vivo: https://moisesui.herokuapp.com/
 Dediquei dias e dias a esse projeto, com o objetivo de deixá-lo com a minha cara, sendo o Front-end de um sistema FullStack de apresentação minha como profissional e pessoa.
 <br>
 # Home
+Página de chegada do site
 <img src="https://i.imgur.com/nSOxt8a.png">
 <br>
 # Sobre
+Uma seção sobre mim, breve apresebtação da minha paixão pela tecnologia
 <img src="https://i.imgur.com/ac7vFNj.png">
 <br>
 # Form
