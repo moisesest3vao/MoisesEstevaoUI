@@ -17,7 +17,7 @@ Esse formulário se comunica com um WebService que eu criei, uma API Rest em Spr
 <br>
 link do repositório da API: https://github.com/moisesest3vao/MoisesEstevaoAPI
 <br>
-<img src="https://i.imgur.com/vROpGzN.png" style="width:350px;">
+<img src="https://i.imgur.com/vROpGzN.png" style="width:500px;">
 Construído utilizando uma template base de Zinedine Benkhider, presente no link abaixo:
 https://zinedinebenkhider.github.io/portfolio/
 
