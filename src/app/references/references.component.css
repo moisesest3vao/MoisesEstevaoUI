@@ -1,5 +1,7 @@
 li.not-active{
-    background-color: rgb(95, 146, 161);
+    height: 10px;
+    width: 100px;
+    background-color: rgb(0, 38, 255);
 }
 .text-white{
   color:white;
@@ -21,7 +23,9 @@ h2{
   background-color: rgba(155, 242, 255, 0.473);
 }
 li.active{
-    background-color: rgb(6, 46, 58);
+    height: 10px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
 }
 
 section{

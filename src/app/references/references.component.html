@@ -7,7 +7,6 @@
                 <ol class="carousel-indicators">
                     <li data-target="#carouselIndicators" data-slide-to="0" class="not-active active"></li>
                     <li data-target="#carouselIndicators" data-slide-to="1" class="not-active"></li>
-                    <li data-target="#carouselIndicators" data-slide-to="2" class="not-active"></li>
                 </ol>
                 <div class="carousel-inner" >
                     <div class="carousel-item" [ngClass]="{active:index==0}" *ngFor="let reference of references;let index=index">
@@ -37,7 +36,7 @@
                                     </div>
                                 </div>
                                 <div class="text-white card-body ml-4 mr-3 mt-4 col-lg-9 col-sm-12">
-                                    <div class="row">
+                                    <div class="row mb-5">
                                         <span style="font-size:28px;">{{reference.message}}
                                         </span>
                                     </div>
